@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+          #button{
+          	margin : 10px 100px 10px 100px;
+          	text-align: center;
+            display: block;
+
+          }
+          #row{
+            
+          }
+          #box1{
+            width: 31%;
+            float: left;
+            border: 2px;
+            border-style: dotted;
+            margin: 1px;
+          }
+          #box2{
+            width: 31%;
+            float: left;
+            border: 2px;
+            border-style: dotted;
+            margin: 1px;
+          }
+          #box3{
+            width: 31%;
+            float: left;
+            border: 2px;
+            border-style: dotted;
+            margin: 1px;
+          }
+		</style>
+    <script src = "index.js"></script>
+	</head>
+	<body>
+    <div id = "button">
+      <button id = "back" onclick="back()"><</button>
+      <button id = "front" onclick = "forward()">></button>
+      <input type="Search" name="Message" id = "inputBox" ></input>
+      <button onclick="clickEvent(document.getElementById('inputBox').value)">Add</button>
+    </div>
+		<div id = "row">
+      <div id = "box1">
+        <div>Box1:</div>
+        <ul id = "box1input">
+          
+        </ul>
+      </div>
+      <div id = "box2">
+        <div>Box2:</div>
+        <ul id = "box2input">
+          
+        </ul>
+      </div>
+      <div id = "box3">
+        <div>Box3:</div>
+        <ul id = "box3input">
+          
+        </ul>
+      </div>
+    </div>
+	</body>
+</html>
